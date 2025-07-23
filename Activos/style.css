@@ -8,20 +8,27 @@ body {
 
 .titulo-principal {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: center;             
+  justify-content: center;          
   background-color: #f4f4f4;
-  padding: 30px 30px 20px; /* más espacio arriba */
+  padding: 20px 30px;               
   border-bottom: 2px solid #ccc;
   position: relative;
+}
+
+.titulo-principal .logo {
+  width: 50px;                    
+  height: auto;
+  margin-right: 20px;
+  flex-shrink: 0;                   
 }
 
 .titulo-principal h1 {
   margin: 0;
   font-size: 24px;
   color: #333;
-  flex-grow: 1;
-  padding-top: 10px; /* fuerza a bajar el texto */
+  flex: 1;
+  text-align: center;
 }
 
 nav {
