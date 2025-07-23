@@ -5,6 +5,28 @@ body {
   padding: 0;
   background: #f9f9f9;
 }
+.titulo-principal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f4f4f4;
+  padding: 10px 30px;
+  border-bottom: 2px solid #ccc;
+  font-family: 'Arial', sans-serif;
+}
+
+.titulo-principal h1 {
+  margin: 0;
+  font-size: 24px;
+  color: #333;
+  flex-grow: 1;
+  text-align: center;
+}
+
+.titulo-principal .logo {
+  width: 60px; /* ajustá según el tamaño de tu imagen */
+  height: auto;
+}
 
 nav {
   background-color: #2d5c3e;
