@@ -5,28 +5,31 @@ body {
   padding: 0;
   background: #f9f9f9;
 }
+ 
 .titulo-principal {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between; /* distribuye el logo y el texto */
   background-color: #f4f4f4;
   padding: 10px 30px;
   border-bottom: 2px solid #ccc;
   font-family: 'Arial', sans-serif;
 }
 
+.titulo-principal .logo {
+  width: 70px;
+  height: auto;
+  margin-right: 20px;
+}
+
 .titulo-principal h1 {
   margin: 0;
   font-size: 24px;
   color: #333;
-  flex-grow: 1;
   text-align: center;
+  flex: 1;
 }
 
-.titulo-principal .logo {
-  width: 60px; 
-  height: auto;
-  margin-right: 20px;
 }
 
 nav {
