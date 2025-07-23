@@ -9,7 +9,7 @@ body {
 .titulo-principal {
   display: flex;
   align-items: center;
-  justify-content: flex-start; /* logo y texto juntos a la izquierda */
+  justify-content: flex-start;
   background-color: #f4f4f4;
   padding: 10px 30px;
   border-bottom: 2px solid #ccc;
@@ -20,7 +20,7 @@ body {
   width: 70px;
   height: auto;
   margin-right: 20px;
-  /* float: left;  eliminar */
+
 }
 
 .titulo-principal h1 {
@@ -28,7 +28,7 @@ body {
   font-size: 24px;
   color: #333;
   flex: 1;
-  text-align: left; /* o center, según prefieras */
+  text-align: left; 
 }
 
 
