@@ -20,6 +20,7 @@ body {
   width: 70px;
   height: auto;
   margin-right: 20px;
+  float: right;
 }
 
 .titulo-principal h1 {
