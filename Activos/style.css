@@ -9,7 +9,7 @@ body {
 .titulo-principal {
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: flex-start; /* Asegura que los elementos empiecen desde la izquierda */
   background-color: #f4f4f4;
   padding: 10px 30px;
   border-bottom: 2px solid #ccc;
@@ -19,19 +19,16 @@ body {
 .titulo-principal .logo {
   width: 70px;
   height: auto;
-  margin-right: 20px;
-  aling: right;
-
+  margin-right: 20px; /
 }
 
 .titulo-principal h1 {
   margin: 0;
   font-size: 24px;
   color: #333;
-  flex: 1;
+  flex: 1; 
   text-align: left; 
 }
-
 
 nav {
   background-color: #2d5c3e;
