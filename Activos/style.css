@@ -24,8 +24,9 @@ body {
 }
 
 .titulo-principal .logo {
-  width: 60px; /* ajustá según el tamaño de tu imagen */
+  width: 60px; 
   height: auto;
+  margin-right: 20px;
 }
 
 nav {
