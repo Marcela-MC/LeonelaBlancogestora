@@ -27,7 +27,8 @@ body {
   margin: 0;
   font-size: 24px;
   color: #333;
-  display: inline-block;
+  text-align: center;
+  flex-grow: 1;
 }
 
 nav {
