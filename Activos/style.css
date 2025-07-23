@@ -7,20 +7,21 @@ body {
 }
 
 .titulo-principal {
-  display: flex;
-  align-items: center;             
-  justify-content: center;          
-  background-color: #f4f4f4;
-  padding: 20px 30px;               
-  border-bottom: 2px solid #ccc;
   position: relative;
+  background-color: #f4f4f4;
+  padding: 10px 30px 30px 30px; /* Aumentamos el padding inferior */
+  border-bottom: 2px solid #ccc;
+  text-align: center;
 }
 
 .titulo-principal .logo {
-  width: 50px;                    
+  position: absolute;
+  left: 30px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 70px;
   height: auto;
-  margin-right: 20px;
-  flex-shrink: 0;                   
+  margin-bottom: 20px; /* Espacio debajo del logo */
 }
 
 .titulo-principal h1 {
