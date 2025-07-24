@@ -81,6 +81,25 @@ nav ul.nav-list a:hover {
   color: #d47500;
 }
 
+/* ==== CRÉDITOS ==== */
+
+.barra-inferior {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #4CAF50; /* Cambia este color si tienes uno específico */
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 14px;
+  z-index: 1000;
+  box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.3);
+}
+
+.contenido-footer span {
+  margin: 0 10px;
+}
+
 /* ==== RESPONSIVO ==== */
 @media (max-width: 768px) {
   .titulo-principal {
