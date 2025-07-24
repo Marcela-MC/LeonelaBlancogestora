@@ -7,25 +7,29 @@ body {
 }
 
 .titulo-principal {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 20px;
+  position: relative;
+  width: 100%;
+  padding: 20px 0;
   background-color: #f1f1f1;
-  padding: 20px 10px;
 }
 
-.titulo-principal .logo {
+.logo-container {
+  position: absolute;
+  top: 50%;
+  left: 30px;
+  transform: translateY(-50%);
+}
+
+.logo {
   height: 60px;
   width: auto;
-  margin-right: 20px;
 }
 
-.titulo-principal h1 {
-  margin: 0;
+.titulo-texto {
+  text-align: center;
   font-size: 24px;
   color: #2f5233;
-  text-align: center;
+  margin: 0;
 }
 
 nav {
