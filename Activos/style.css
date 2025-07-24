@@ -85,10 +85,9 @@ nav ul.nav-list a:hover {
 
 .barra-inferior {
   position: fixed;
-  bottom: 0;
-  left: 0;
-  width: calc(100% - 20px); 
-  margin: 0 10px 10px 10px;  
+  bottom: 10px;
+  left: 10px;
+  right: 10px;
   background-color: #2f5b3f;
   color: white;
   text-align: center;
@@ -97,6 +96,12 @@ nav ul.nav-list a:hover {
   z-index: 1000;
   border-radius: 8px;
   box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.3);
+  box-sizing: border-box;
+}
+
+.contenido-footer span {
+  display: inline-block;
+  margin: 0 10px;
 }
 
 /* ==== RESPONSIVO ==== */
