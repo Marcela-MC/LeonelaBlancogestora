@@ -7,28 +7,25 @@ body {
 }
 
 .titulo-principal {
-  position: relative;
-  background-color: #f4f4f4;
-  padding: 10px 30px 30px 30px; /* Aumentamos el padding inferior */
-  border-bottom: 2px solid #ccc;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  background-color: #f1f1f1;
+  padding: 20px 10px;
 }
 
 .titulo-principal .logo {
-  position: absolute;
-  left: 30px;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 70px;
-  height: auto;
-  margin-bottom: 20px; /* Espacio debajo del logo */
+  height: 60px;
+  width: auto;
+  margin-right: 20px;
 }
 
 .titulo-principal h1 {
   margin: 0;
   font-size: 24px;
-  color: #333;
-  display: inline;
+  color: #2f5233;
+  text-align: center;
 }
 
 nav {
